@@ -8,7 +8,7 @@ class Heap_Sort {
         nums[j]=temp;
     }
 
-    // for the index i, check if a descendent if greater than it and swap
+    // for the index i, check if a descendent is greater than it and swap
     // it with the greater child
     public static void heapify(int nums[],int index,int high)
     {
